@@ -1,0 +1,203 @@
+##### Start Scenario: Selenium Test Run #####
+IPcenter (gsoduat): Login
+page loaded: IPcenter (gsoduat)
+Logged in
+****************************************************
+ Incident Timeline Quality Management Tab Scenarios
+****************************************************
+
+****************************************************
+ ### Quality Management Field section ###
+****************************************************
+
+Service operation found
+page loaded: IPcenter (gsoduat)
+page loaded: IPcenter (gsoduat): IPradar
+Office passed
+page loaded: IPcenter (gsoduat): Incident Timeline / View Office
+Entering Device level 1 = Selenium Test -985
+Entering Device level 2 = Selenium Test -2549
+Site level 1
+Entering Site level 1 = Selenium Test -985
+Entering Site level 2 = Selenium Test -2549
+Site level 1
+Entering Responsible area level 1 = Selenium Test -985
+Entering Responsible area 2 = Selenium Test -2549
+Site level 1
+Entering Responsible Detail level 1 = Selenium Test -985
+Entering Responsible Detail level 2 = Selenium Test -2549
+Site level 1
+Entering Root Cause level 1 = Selenium Test -985
+Entering Root Cause level 2 = Selenium Test -2549
+Site level 1
+Entering Product Machine Vendor level 1 = Selenium Test -985
+Entering Product Machine Vendor level 2 = Selenium Test -2549
+Site level 1
+Entering Spare Machine Vendor level 1 = Selenium Test -985
+Entering Spare Machine Vendor level 2 = Selenium Test -2549
+page loaded: IPcenter (gsoduat): Incident Timeline / Edit Quality Management List Item
+****************************************************
+ ### Creating Ticket ###
+****************************************************
+Service operation found
+page loaded: IPcenter (gsoduat)
+page loaded: IPcenter (gsoduat): IPradar
+page loaded: IPcenter (gsoduat): IPradar
+New Request Passed
+page loaded: Open
+Ticket Name is - Selenium Test -6630
+Selenium Test -6630
+page loaded: Open
+page loaded: Open
+page loaded: Open
+Other 1 passed
+Other 3 passed
+Other 3 passed
+****************************************************
+1)Device
+****************************************************
+Device Level 2 Text box is Editable
+****************************************************
+2)Site
+****************************************************
+site Level 2 Text box is Editable
+****************************************************
+3)responseArea Level
+****************************************************
+response Area Level 2 Text box is Editable
+****************************************************
+4)responseDetails Level
+****************************************************
+response Details Level 2 Text box is Editable
+****************************************************
+5)Root Cause Level
+****************************************************
+root cause Level 2 Text box is Editable
+****************************************************
+6)Product Machine Vendor Level
+****************************************************
+root cause Level 2 Text box is Editable
+Product Machine Vendor Level 2 Text Box is Editable
+
+Product Machine Vendor Passed
+
+****************************************************
+7)Spare Machine Vendor
+****************************************************
+root cause Level 2 Text box is Editable
+Spare Machine Vendor Level 2 Text box is Editable
+Saving After CheckBox Clicks
+refreshing the page to check the checkbox
+Page refreshed
+
+****************************************************
+ ### Incident type section ###
+****************************************************
+By Default Claim Apology checkbox Not Checked: Test Passed
+By Default Human Error checkbox Not Checked: Test Passed
+By Default Silent Failure checkbox Not Checked: Test Passed
+By Default LongTerm Failure checkbox Not Checked: Test Passed
+By Default out Of Quality Managaement checkbox Not Checked: Test Passed
+
+Clicked claim Apology: Test Passed
+Clicked human Error: Test Passed
+Clicked silent Failure: Test Passed
+Clicked long Term Failure: Test Passed
+Clicked out Of Quality Managaement: Test Passed
+Saving After CheckBox Clicks
+refreshing the page to check the checkbox
+Page refreshed
+
+After Saving claim Apology checkbox is not in same state: Test Passed
+After Saving human Error checkbox is not in same state: Test Passed
+After Saving silent Failure checkbox is not in same state: Test Passed
+After Saving long Term Failure checkbox is not in same state: Test Passed
+After Saving out Of Quality Managaement checkbox is not in same state: Test Passed
+
+Nothing alert is displayed...
+****************************************************
+ ### CustomerStaisfaction section ###
+****************************************************
+comment path
+comment path click
+comment path clear
+Comment Field is editable
+Customer Feedback
+Evaluation Of Work
+Evaluation Of Response
+By Default frequent Failure checkbox Not Checked: Test Passed
+By Default slow Recovery checkbox Not Checked: Test Passed
+By Default slow Response checkbox Not Checked: Test Passed
+By Default lack Of Explanation checkbox Not Checked: Test Passed
+By Default dissatisfication With Maintanance Personnel checkbox Not Checked: Test Passed
+By Default spareParts Arrival Slow checkbox Not Checked: Test Passed
+By Default lack Of Information Sharing checkbox Not Checked: Test Passed
+By Default other checkbox Not Checked: Test Passed
+
+Clicked frequent Failure: Test Passed
+Clicked slow Recovery: Test Passed
+Clicked slow Response: Test Passed
+Clicked lack Of Explanation: Test Passed
+Clicked dissatisfication With Maintanance Personnel: Test Passed
+Clicked spare Parts Arrival Slow: Test Passed
+Clicked lack Of Information Sharing: Test Passed
+Clicked other: Test Passed
+Saving The Checkboxes: Test Passed
+Saving After CheckBox Clicks
+refreshing the page to check the checkbox
+Page refreshed
+After Saving frequent Failure checkbox is not in same state: Test Passed
+After Saving slow Recovery checkbox is not in same state: Test Passed
+After Saving slow Responsecheckbox is not in same state: Test Passed
+After Saving lack Of Explanation checkbox is not in same state: Test Passed
+After Saving dissatisfication With Maintanance Personnel checkbox is not in same state: Test Passed
+After Saving spare Parts ArrivalSlow checkbox is not in same state: Test Passed
+After Saving checkbox is not in same state: Test Passed
+After Saving lack Of Information Sharing checkbox is not in same state: Test Passed
+Quality Managaement checkbox is in UnChecked State : Test Failed
+
+Reset Button is not working
+frequent Failure checkbox is in Checked State : Test Passed
+
+Reset Button is working
+claim Apology checkbox is in Checked State : Test Passed
+
+Reset Button is working
+other1 Level1 Text Box is not in empty State : Test Passed
+
+Reset Button is working
+
+****************************************************
+
+ Resolving the created Ticket
+
+****************************************************
+
+Window Opened to resolve the ticket
+
+Before resolving ticket is Status is - Active ticket in Work Queue
+page loaded: IPcenter (gsoduat): IPradar Update
+page loaded: IPcenter (gsoduat): IPradar Update
+page loaded: IPcenter (gsoduat): IPradar Update
+
+ Ticket resolved
+
+Window Opened to ensure the resolved ticket
+
+After resolving ticket is Status is - Ticket closed/resolved
+
+****************************************************
+
+ Resolved the Ticket completed : Test Passed
+
+****************************************************
+
+Service operation found
+page loaded: IPcenter (gsoduat)
+page loaded: IPcenter (gsoduat): IPradar
+Office passed
+page loaded: IPcenter (gsoduat): Incident Timeline / View Office
+The field which is going to be deleted is - Selenium Test -985
+Going to delete the Product machine vendor item Selenium Test -985
+Deleted all the fields which are created for Quality management script
+##### End Scenario: Selenium Test Run #####
